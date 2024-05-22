@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.apk filter=lfs diff=lfs merge=lfs -text
+proprietary/system/priv-app/MiuiCameraLeica/MiuiCameraLeica.apk filter=lfs diff=lfs merge=lfs -text
