@@ -3,7 +3,7 @@ soong_namespace {
 
 android_app_import {
 	name: "MiuiCameraLeica",
-	overrides: ["Snap", "Camera2", "GCamGOPrebuilt"],
+	overrides: ["Snap", "Aperture", "Camera2", "GCamGOPrebuilt"],
 	owner: "MiuiCameraLeica",
 	apk: "proprietary/system/priv-app/MiuiCameraLeica/MiuiCameraLeica.apk",
 	certificate: "platform",
